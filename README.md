@@ -12,6 +12,11 @@ For the theoretical foundation behind MAP, please visit the main repository:
 
 👉 https://github.com/JBKing514/map_blog
 
+**Note:**
+This project installs the CPU version of PyTorch by default.
+If you want to run the experiments on GPU, please manually install a CUDA-enabled build of PyTorch that matches your CUDA version (e.g., cu118 or cu121).
+After installing the appropriate GPU build, all scripts will automatically use the GPU if available.
+
 ---
 
 ## Features
