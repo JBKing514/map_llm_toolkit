@@ -44,6 +44,10 @@ Requirements: Python ≥ 3.8, PyTorch, Transformers, NumPy, scikit-learn, matplo
 
 ## Quick Start
 
+The example script can be found in the `examples` folder with some pre-rendered JPGs for confirmation.
+
+Alternatively, you can follow the minimal example below.
+
 ### Minimal Example
 
 ```python
@@ -86,30 +90,6 @@ traj_r, traj_a, curv_r, curv_a = proto.run(
 )
 
 proto.plot(traj_r, traj_a, curv_r, curv_a)
-```
-## Project Structure
-```arduino
-map-llm-toolkit/
-│
-├─ map_llm_toolkit/
-│   ├─ core/
-│   │   ├─ runner.py
-│   │   ├─ projection.py
-│   │   ├─ curvature.py
-│   │   └─ protocols.py
-│   │
-│   └─ viz/
-│       ├─ plot_trajectory.py
-│       └─ plot_curvature.py
-│
-├─ examples/
-│   ├─ run_convergence.py
-│   ├─ run_safety.py
-│   └─ test_minimal.py
-│
-├─ setup.py
-├─ requirements.txt
-└─ README.md
 ```
 
 ## Roadmap
