@@ -17,22 +17,24 @@ git clone https://github.com/JBKing514/map_llm_toolkit.git
 
 ### 2. Create a Development Environment
 
+```python
 python -m venv env
 source env/bin/activate # Windows: env\Scripts\activate
 pip install -r requirements.txt
 pip install -e .
+```
 
 ---
 
 ### 3. Add Your Changes
 
 Follow the existing file structure:
-
+```python
 map_llm_toolkit/
 core/ # Algorithms, trajectory extraction, projections, curvature
 viz/ # Plotting utilities
 examples/ # Reproducible demo scripts
-
+```
 
 Please:
 
@@ -71,11 +73,11 @@ def compute_curvature(points: np.ndarray) -> np.ndarray:
 
 ### Then open a PR with:
 
-A clear title
+- A clear title
 
-A short description of the change
+- A short description of the change
 
-Screenshots or example outputs (if applicable)
+- Screenshots or example outputs (if applicable)
 
 We review PRs as quickly as possible.
 
@@ -95,15 +97,15 @@ This helps us diagnose and fix problems faster.
 
 We welcome help on the following planned features:
 
-Animated trajectory visualization
+- Animated trajectory visualization
 
-Multi-model comparison module
+- Multi-model comparison module
 
-Interactive dashboards (Plotly / Web UI)
+- Interactive dashboards (Plotly / Web UI)
 
-PyPI packaging
+- PyPI packaging
 
-Benchmark datasets for LLM geometry
+- Benchmark datasets for LLM geometry
 
 If you'd like to take ownership of one of these, open an Issue titled:
 
