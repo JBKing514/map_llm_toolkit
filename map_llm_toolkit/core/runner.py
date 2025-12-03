@@ -128,7 +128,7 @@ class MAPModelRunner:
             last_hidden = outputs.hidden_states[-1][0, -1, :].detach().cpu().numpy()
             trajectory.append(last_hidden)
 
-            # greedy next token（和你原脚本逻辑一致，先简单实现）
+            # greedy next token
             next_token = torch.argmax(outputs.logits[:, -1, :], dim=-1).unsqueeze(0)
             current_ids = torch.cat([current_ids, next_token], dim=1)
 
