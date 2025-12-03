@@ -121,6 +121,10 @@ map-llm-toolkit/
 
  v1.0 — Publish to PyPI (pip install map-llm-toolkit)
 
+## Contribute
+
+If you want to contribute this project, please read our [Contribution/Issue Guideline](https://github.com/JBKing514/map_llm_toolkit/blob/main/CONTRIBUTING.md).
+
  ## Citation
  If you use this toolkit or MAP in your research, please cite:
  ```bibtex
@@ -131,3 +135,7 @@ map-llm-toolkit/
   year={2025}
 }
  ```
+
+## License
+
+MIT License © Yunchong Tang
