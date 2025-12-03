@@ -80,7 +80,8 @@ def compute_curvature(points: np.ndarray) -> np.ndarray:
 
 - Screenshots or example outputs (if applicable)
 
-We review PRs as quickly as possible.
+**note:** This project is currently maintained by one person (a full-time PhD student),  
+so PR reviews may take time. Thanks for your patience!
 
 ## Reporting Issues
 
