@@ -8,6 +8,7 @@ This library implements the core components of the **Manifold Alignment Protocol
 - **Safety Topology** via curvature-based analysis of refusal vs. guidance behavior
 
 For the theoretical foundation behind MAP, please visit the main repository:
+
 👉 https://github.com/JBKing514/map_blog
 
 ---
@@ -28,14 +29,14 @@ The toolkit is designed as a clean, lightweight API that you can easily integrat
 ## Installation
 
 Clone the repository and install in editable mode:
-
+```python
 pip install -e .
-
+```
 
 Alternatively:
-
+```python
 pip install git+https://github.com/JBKing514/map_llm_toolkit.git
-
+```
 
 Requirements: Python ≥ 3.8, PyTorch, Transformers, NumPy, scikit-learn, matplotlib.
 
@@ -86,7 +87,7 @@ traj_r, traj_a, curv_r, curv_a = proto.run(
 
 proto.plot(traj_r, traj_a, curv_r, curv_a)
 ```
-# Project Structure
+## Project Structure
 ```arduino
 map-llm-toolkit/
 │
@@ -111,7 +112,7 @@ map-llm-toolkit/
 └─ README.md
 ```
 
-# Roadmap
+## Roadmap
  v0.2 — Animated trajectory visualization
 
  v0.3 — Multi-model comparison (Qwen, Llama, GPT)
@@ -120,7 +121,7 @@ map-llm-toolkit/
 
  v1.0 — Publish to PyPI (pip install map-llm-toolkit)
 
- # Citation
+ ## Citation
  If you use this toolkit or MAP in your research, please cite:
  ```bibtex
 @article{tang2025map,
