@@ -11,8 +11,9 @@ We welcome improvements, bug fixes, examples, and new visualization modules.
 ### 1. Fork the Repository
 Create your own fork and clone it locally:
 
+```python
 git clone https://github.com/JBKing514/map_llm_toolkit.git
-
+```
 ---
 
 ### 2. Create a Development Environment
