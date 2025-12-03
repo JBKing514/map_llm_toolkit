@@ -24,6 +24,10 @@ Compare "Rigid" (hard refusal) vs. "Adaptive" (guided) safety systems by analyzi
 ### ✔ Minimal & Extensible
 The toolkit is designed as a clean, lightweight API that you can easily integrate into your own LLM research.
 
+### ✔ Semantic Alignment (A & ΔA)
+Quantify layer-wise semantic coherence across prompts by computing alignment profiles for tight vs. sparse prompt clusters, and visualize semantic separation (ΔA) between them.
+
+
 ---
 
 ## Installation
