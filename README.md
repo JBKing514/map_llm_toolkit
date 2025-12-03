@@ -6,7 +6,7 @@ A minimal Python toolkit for extracting, projecting, and visualizing MAP reasoni
 This library implements the core components of the **Manifold Alignment Protocol (MAP)**, allowing users to visualize:
 - **Geometric Convergence** of reasoning trajectories across layers
 - **Safety Topology** via curvature-based analysis of refusal vs. guidance behavior
-
+- **Semantic Alignment** through layer-wise alignment metrics (A and ΔA) comparing tight vs. sparse semantic prompt clusters
 For the theoretical foundation behind MAP, please visit the main repository:
 
 👉 https://github.com/JBKing514/map_blog
