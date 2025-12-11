@@ -1,7 +1,7 @@
 # MAP-LLM-Toolkit (v0.1)
 A minimal Python toolkit for extracting, projecting, and visualizing MAP reasoning trajectories in large language models.
 
-[![arXiv](https://img.shields.io/badge/arXiv-2511.xxxxx-b31b1b.svg)](https://arxiv.org/abs/2511.xxxxx) [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE) 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17900444.svg)](https://doi.org/10.5281/zenodo.17900444) [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE) 
 
 This library implements the core components of the **Manifold Alignment Protocol (MAP)**, allowing users to visualize:
 - **Geometric Convergence** of reasoning trajectories across layers
@@ -114,16 +114,12 @@ proto.plot(traj_r, traj_a, curv_r, curv_a)
 
 If you want to contribute this project, please read our [Contribution/Issue Guideline](https://github.com/JBKing514/map_llm_toolkit/blob/main/CONTRIBUTING.md).
 
- ## Citation
- If you use this toolkit or MAP in your research, please cite:
- ```bibtex
-@article{tang2025map,
-  title={The Manifold Alignment Protocol (MAP): A Self-Iterable Geometric Framework for Cross-System Cognitive Convergence},
-  author={Tang, Yunchong},
-  journal={arXiv preprint arXiv:2511.xxxxx},
-  year={2025}
-}
- ```
+## Citation
+
+If you use MAP or the MAP Toolkit, please cite:
+
+Tang, Y. (2025). *The Manifold Alignment Protocol (MAP): A Self-Iterable Geometric Framework for Cross-System Cognitive Convergence*. Zenodo. https://doi.org/10.5281/zenodo.17900444
+
 
 ## License
 
