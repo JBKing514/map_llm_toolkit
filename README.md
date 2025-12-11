@@ -114,11 +114,18 @@ proto.plot(traj_r, traj_a, curv_r, curv_a)
 
 If you want to contribute this project, please read our [Contribution/Issue Guideline](https://github.com/JBKing514/map_llm_toolkit/blob/main/CONTRIBUTING.md).
 
-## Citation
-
-If you use MAP or the MAP Toolkit, please cite:
-
-Tang, Y. (2025). *The Manifold Alignment Protocol (MAP): A Self-Iterable Geometric Framework for Cross-System Cognitive Convergence*. Zenodo. https://doi.org/10.5281/zenodo.17900444
+ ## Citation
+ If you use MAP or its toolkits in your research, please cite:
+ ```bibtex
+@article{tang2025map,
+  title={The Manifold Alignment Protocol (MAP): A Self-Iterable Geometric Framework for Cross-System Cognitive Convergence},
+  author={Tang, Yunchong},
+  journal={Zenodo},
+  year={2025},
+  doi={10.5281/zenodo.17900444},
+  url={https://doi.org/10.5281/zenodo.17900444}
+}
+ ```
 
 
 ## License
