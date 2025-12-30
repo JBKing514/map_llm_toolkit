@@ -1,7 +1,7 @@
 # MAP-LLM-Toolkit (v0.1)
 A minimal Python toolkit for extracting, projecting, and visualizing MAP reasoning trajectories in large language models.
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17900444.svg)](https://doi.org/10.5281/zenodo.17900444) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18091447.svg)](https://doi.org/10.5281/zenodo.18091447) [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE) 
+[![Standard Version](https://img.shields.io/badge/MAP%20Spec-v1.0.0-orange)](https://doi.org/10.5281/zenodo.18091447) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17900444.svg)](https://doi.org/10.5281/zenodo.17900444) [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE) 
 
 This library implements the core components of the **Manifold Alignment Protocol (MAP)**, allowing users to visualize:
 - **Geometric Convergence** of reasoning trajectories across layers
