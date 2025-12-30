@@ -118,12 +118,12 @@ If you want to contribute this project, please read our [Contribution/Issue Guid
  If you use MAP or its toolkits in your research, please cite:
  ```bibtex
 @article{tang2025map,
-  title={The Manifold Alignment Protocol (MAP): A Self-Iterable Geometric Framework for Cross-System Cognitive Convergence},
+  title={Manifold Alignment Protocol (MAP) Specification},
   author={Tang, Yunchong},
   journal={Zenodo},
   year={2025},
-  doi={10.5281/zenodo.17900444},
-  url={https://doi.org/10.5281/zenodo.17900444}
+  doi={10.5281/zenodo.18091447},
+  url={[https://doi.org/10.5281/zenodo.18091447](https://doi.org/10.5281/zenodo.18091447)}
 }
  ```
 
